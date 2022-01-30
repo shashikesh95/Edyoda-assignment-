@@ -1,0 +1,10 @@
+even = 0 
+odd = 0 
+for i in range(0,51):
+    if i%2 == 0 :
+        even += 1
+    elif i % 2 == 1 :
+        odd+=1
+    
+print ('Number of even number',even)
+print ('Number of odd number',odd)
