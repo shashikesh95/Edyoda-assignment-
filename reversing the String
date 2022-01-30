@@ -1,2 +1,4 @@
 s = input('Enter the string')
+# Take input from the user 
 print ('mirror string is ', s[: : -1])
+# will reverse the string using slicing 
