@@ -1,8 +1,8 @@
-list1 = list(input('enter the number: '))                   # take user input for the tuple
-print("Entered list:  ", list1)                             # display the entererd list of tuple 
-for i in range(0, len(list1)):                              # iterating to access the content of entered list
-    for j in range(0, len(list1) - i - 1):                  # iterating to acess the elements of the tuples in the entered list 
-        if(list1[j][-1] > list1[j + 1][-1]):                # comparing the consecutive elements of the tuple in the list 
+list1 = list(input('enter the numbers: '))                   # take user input for the tuple
+print("Entered list:  ", list1)                              # display the entererd list of tuple 
+for i in range(0, len(list1)):                               # iterating to access the content of entered list
+    for j in range(0, len(list1) - i - 1):                   # iterating to acess the elements of the tuples in the entered list 
+        if(list1[j][-1] > list1[j + 1][-1]):                 # comparing the consecutive elements of the tuple in the list 
             swap = list1[j]                                 
             list1[j] = list1[j + 1]
             list1[j + 1] = swap                             
