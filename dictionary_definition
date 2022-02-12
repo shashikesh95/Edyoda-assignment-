@@ -1,4 +1,4 @@
 d = {}                                       #Defined the dictionary
 for i in range (97,123):                     # itereating from Ascii value of 'a' to 'z'+1
     d[chr(i)]=i                              # iterating to add values in dictioaries with keys and values as given in question
-print(d)                                     # Printing teh requested dictionary 
+print(d)                                     # Printing the requested dictionary 
