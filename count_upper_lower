@@ -1,0 +1,17 @@
+def countuplow(string):                            #deining a function 
+  
+    u = 0                                           # variable define fro count storage for upper case 
+    l = 0                                            # variable define fro count storage for upper case 
+    for i in range(len(string)):                     # iteration to check the lower case 
+        if (ord(string[i]) >= 97 and
+            ord(string[i]) <= 122):
+            l += 1
+        elif (ord(string[i]) >= 65 and                # iteration to check the upper case 
+              ord(string[i]) <= 90):
+            u += 1
+  
+    print('Number of lower case' , l)
+    print('Number of upper case' , u)
+  
+
+countuplow(input('enter the string: '))
