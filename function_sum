@@ -1,0 +1,8 @@
+def sum1(*n):                              #defining fucntion with arbitary paramenters
+    s = 0                                  # defining variable s = 0 
+    for i in range (len(n)):               # iterating the sum of all the element passed in a list
+        s = s + int(n[i])
+    return s                                # return sum value
+
+x = sum1(5,8,7,6,5,4)                       # function call
+print (x)
