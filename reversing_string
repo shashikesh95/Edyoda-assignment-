@@ -1,0 +1,4 @@
+def revstr(string):                                  # defining the function 
+    return string[::-1]                              # return the reversed string using slicing 
+x = revstr(input('enter the string: '))               # function call 
+print(x)
