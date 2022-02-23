@@ -1,0 +1,1 @@
+(lambda x : x+25)(int(input()))       #lambda function to take integer it value from user as an argument and add 25
