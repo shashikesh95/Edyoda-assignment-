@@ -1,0 +1,5 @@
+def sq(n):               # definig the fuction to square the number
+    return n**2           # returning the square value
+l = [4,5,2,9]             # creating the list
+
+list(map(sq,l))           # python map fo give square number and stored in a list mnkiut
