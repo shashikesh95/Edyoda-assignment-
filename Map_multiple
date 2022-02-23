@@ -1,0 +1,5 @@
+def mul3(n):                            #definig the function 
+   return n*3                           #returning the multiple of 3
+l = [1,2,3,4,5,6,7]                     # creating a list of number 
+
+list(map(mul3,l))                       #using python map to get the desired output of multiple of 3
