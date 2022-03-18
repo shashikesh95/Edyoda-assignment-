@@ -1,0 +1,32 @@
+class student :                           # creating a class student 
+    
+    def __init__(self,name,phy,chem,bio): # declaring constructor with 4 attributes 
+        self.name = name
+        self.phy = phy
+        self.chem = chem
+        self.bio = bio
+        
+        print(name,phy,chem,bio)           # printing all the atributes pass in object  
+        
+    def totalobtained(self):              # creating method for total of all the marks 
+        p = self.phy
+        c = self.chem
+        b = self.bio
+
+        return p+c+b
+    
+    def percentage(self):                   # method to calculate the percentage
+        t = self.totalobtained()
+        
+        return round(t*100 / 300)
+    
+
+n = input('Enter the name of student: ')   # user input variable for the object of class student 
+x = int(input('enter the phy marks: '))
+y = int(input('enter the chem marks: '))
+z = int(input('enter the bio marks: '))
+
+stu1 = student(n,x,y,z)           # creating the objetc of class student 
+
+print(stu1.totalobtained())     # calling method to calculate marks for the stu1 object 
+print(stu1.percentage())        # calling method to calculate marks for the stu1 object 
