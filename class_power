@@ -1,0 +1,15 @@
+class power :       # creating class power
+    
+    def __init__(self,num,pwr):          # declaring the constructor and initializing the value of tha attributes
+        self.num = num
+        self.pwr = pwr
+    
+    def pow(self):                       # creating method to claculate the power of number 
+        return self.num ** self.pwr
+    
+x = int(input('Enter the number:        #user input for number and power
+n = int(input('Enter the power : '))
+    
+obj1 = power(x,n)                       # object creating of class power with user provided given varible
+
+print(obj1.pow())                        # printing the desired out as per the task
